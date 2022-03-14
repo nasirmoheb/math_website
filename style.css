@@ -1,0 +1,147 @@
+#continer{
+    width:1200px;
+    margin:0 auto;
+    
+}
+h1 a{
+    font-size: 50px;
+    text-decoration: none;
+    font-weight: 100;
+    color:#861BBF;
+}
+#header{
+  margin:0px 0px 10px 0px;
+  
+}
+#searchbar{
+    float:right;
+    
+    width:400px;
+    height:50px;
+    padding:20px 10px 4px 10px;
+   
+}
+#brand{
+    float:left;
+}
+.text{
+    float: left;
+    width:200px;
+    height:20px;
+    padding:5px;
+    color: brown;
+    font-size: 15px;
+    background:white url(images/search.png) right center no-repeat;
+    border: 0.5px soli #eee1ee;
+    border-radius: 20px;
+}
+.submit{
+    float: right;
+    padding:5px;
+    font-weight:bold;
+    background:rgb(140, 0, 255);
+    color:white;
+    font-size:15px;
+}
+.clear{
+    clear: both;
+}
+ul li{
+    list-style-type: none;
+}
+#menu ul li{
+    float:left;
+    text-transform: uppercase;
+    padding:0px 10px;
+    border-right:1px solid black;
+    height: 30px 30px 0px 30px;
+}
+#menu{
+    height:60px;
+    background: #0072b0;
+    padding:30px
+  
+}
+#menu ul li:last-child{
+    border-right:none;
+}
+#menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 30px;
+    transition: font-size 0.5s ease;
+    color:#fff;
+}
+#menu ul li a:hover ,#menu ul li a.active{
+    font-size:30px;
+    color: #fff;
+    font-weight: bold;
+}
+#box{
+    height:300px;
+    background:linen;
+    padding: 30px;
+    margin: 10px 0px;
+   border:2px solid #eee;
+}
+#box h2{
+    font-size: 40px;
+    color:brown;
+    font-weight:normal;
+}
+#box p{
+    font-size: 20px;
+    color:brown;
+    text-align:justify;
+}
+#leftside{
+    float:left;
+}
+#leftside ul li{
+    padding-bottom: 6px;
+    padding-left: 10px;
+    list-style-image: url(images/arrow.png);
+}
+#rightside{
+    float:right;
+}
+#rightside ul li{
+    padding-bottom: 6px;
+   background: url(images/tick.png) center left no-repeat;
+   padding-left: 50px;
+   padding-bottom: 20px ; 
+    
+}
+sider ul{
+    padding-top: 6px;
+}
+.sider{
+    border: brown 1px solid;
+    width:500px;
+    height:500px;
+    border-radius:25px;
+    border:10px solid #eee;
+    padding: 10px 30px;
+    background-color:#fff;
+}
+.sider h3{
+    color:blueviolet;
+    font-size: 30px;
+}
+.sider ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: blueviolet;
+}
+.sider ul li a:hover ,.sider ul li a.active{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    transition:font-size 0.3s ease;
+}
+#footer{
+    height:100px;
+    background: #0072b0;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
